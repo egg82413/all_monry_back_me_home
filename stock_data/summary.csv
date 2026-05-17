@@ -995,3 +995,4 @@ Symbol,RealtimePrice,RealtimeTime,Close,MA5,MA10,CloseVsMA5,CloseVsMA10,Volume,H
 8499.TW,295.0,13:30:00,295.0,294.7,279.65,above,above,351802,C:\codex\stock_data\history\8499_TW.csv
 9904.TW,25.85,13:30:00,25.85,25.890000000000004,25.794999999999998,below,above,11112269,C:\codex\stock_data\history\9904_TW.csv
 9912.TW,12.4,13:30:00,12.4,12.39,12.57,above,below,55536,C:\codex\stock_data\history\9912_TW.csv
+^TWII,,,41172.36,41597.398,41413.799,below,below,0,C:\codex\stock_data\history\^TWII.csv
