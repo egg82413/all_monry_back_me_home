@@ -20,6 +20,7 @@
     .card:hover { border-color: #1f6feb; box-shadow: 0 12px 28px rgba(15,23,42,0.12); }
     .strong-card { border-color: #dc2626; background: #fff7f7; }
     .strong-card:hover { border-color: #b91c1c; }
+    .watch-card { border-color: #1f6feb; background: #f7fbff; }
     .card span { color: #1f6feb; font-weight: 800; }
     .strong-card span { color: #dc2626; }
     .card strong { font-size: 24px; }
@@ -29,12 +30,19 @@
 <body>
   <main>
     <h1>股票技術分析 Dashboard</h1>
-    <p>資料更新時間：2026-05-19T19:55:40。資料已分成 4 個 dashboard，避免單一檔案過大造成瀏覽器卡住。</p>
+    <p>資料更新時間：2026-05-19T20:19:44。資料已分成 4 個 dashboard，避免單一檔案過大造成瀏覽器卡住。</p>
     <div class="search">
       <input id="search" type="search" placeholder="搜尋股票代號或名稱，例如 3017">
       <div id="results" class="results"></div>
     </div>
     <div class="grid">
+      
+        <a class="card watch-card" href="stock_watchlist.html">
+          <span>我的關注股票</span>
+          <strong>自選清單</strong>
+          <small>可在網頁上新增或移除股票，並查看推薦進場點、減碼觀察點與出場點。</small>
+        </a>
+    
       
         <a class="card strong-card" href="stock_dashboard_strong_buy.html">
           <span>強力買進 Dashboard</span>
