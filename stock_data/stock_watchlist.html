@@ -47,7 +47,7 @@
     <header>
       <div>
         <h1>我的關注股票</h1>
-        <p>資料更新時間：2026-05-19T20:32:20。預設清單來自 stock_watchlist.json；網頁上的調整會先存在這台瀏覽器。</p>
+        <p>資料更新時間：2026-05-19T20:36:51。線上頁面預設空白；你的清單存在這台瀏覽器或本機 stock_watchlist.json。</p>
       </div>
       <a href="stock_dashboard.html">回 Dashboard</a>
     </header>
@@ -55,13 +55,15 @@
       <div class="tools">
         <input id="search" type="search" placeholder="輸入股票代號或名稱加入關注，例如 2330">
         <button id="add" class="primary">加入</button>
+        <button id="import-json">匯入 JSON</button>
         <button id="export-json">匯出 JSON</button>
         <button id="clear">清空</button>
+        <input id="import-file" type="file" accept="application/json,.json" hidden>
       </div>
       <div id="suggestions" class="suggestions"></div>
       <div id="json-box" class="json-box" hidden>
         <textarea id="json-output" readonly></textarea>
-        <p>把這段內容放回專案的 stock_watchlist.json，下一次自動化重建 dashboard 時就會成為預設關注清單。</p>
+        <p>這段內容可以放回本機專案的 stock_watchlist.json；它不會被發布到 GitHub Pages。</p>
       </div>
       <div class="table-wrap">
         <table>
@@ -180,7 +182,25 @@
       document.getElementById("json-box").hidden = false;
     }
 
+    function importJsonFile(file) {
+      if (!file) return;
+      const reader = new FileReader();
+      reader.addEventListener("load", () => {
+        try {
+          const payload = JSON.parse(String(reader.result || ""));
+          const rawSymbols = Array.isArray(payload) ? payload : payload.symbols;
+          if (!Array.isArray(rawSymbols)) return;
+          const symbols = rawSymbols.map(normalizeSymbol).filter(Boolean);
+          saveWatchlist(symbols);
+          renderRows();
+        } catch {}
+      });
+      reader.readAsText(file);
+    }
+
     document.getElementById("add").addEventListener("click", () => addSymbol(search.value));
+    document.getElementById("import-json").addEventListener("click", () => document.getElementById("import-file").click());
+    document.getElementById("import-file").addEventListener("change", event => importJsonFile(event.target.files?.[0]));
     document.getElementById("export-json").addEventListener("click", exportJson);
     document.getElementById("clear").addEventListener("click", () => { saveWatchlist([]); renderRows(); });
     search.addEventListener("input", renderSuggestions);
