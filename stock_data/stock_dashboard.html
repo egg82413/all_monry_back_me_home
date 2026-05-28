@@ -21,8 +21,10 @@
     .strong-card { border-color: #dc2626; background: #fff7f7; }
     .strong-card:hover { border-color: #b91c1c; }
     .watch-card { border-color: #1f6feb; background: #f7fbff; }
+    .low-buy-card { border-color: #16a34a; background: #f3fff7; }
     .card span { color: #1f6feb; font-weight: 800; }
     .strong-card span { color: #dc2626; }
+    .low-buy-card span { color: #16a34a; }
     .card strong { font-size: 24px; }
     .card small { color: #697386; line-height: 1.5; }
   </style>
@@ -30,7 +32,7 @@
 <body>
   <main>
     <h1>股票技術分析 Dashboard</h1>
-    <p>資料更新時間：2026-05-27T17:47:18。資料已分成 4 個 dashboard，避免單一檔案過大造成瀏覽器卡住。</p>
+    <p>資料更新時間：2026-05-28T17:43:46。資料已分成 4 個 dashboard，避免單一檔案過大造成瀏覽器卡住。</p>
     <div class="search">
       <input id="search" type="search" placeholder="搜尋股票代號或名稱，例如 3017">
       <div id="results" class="results"></div>
@@ -44,9 +46,16 @@
         </a>
     
       
+        <a class="card low-buy-card" href="stock_dashboard_low_buy.html">
+          <span>低檔買入觀察</span>
+          <strong>53 檔</strong>
+          <small>基本面與 EPS 較佳，但技術面與籌碼面尚未過熱，偏向低檔布局觀察池。</small>
+        </a>
+    
+      
         <a class="card strong-card" href="stock_dashboard_strong_buy.html">
           <span>強力買進 Dashboard</span>
-          <strong>299 檔股票</strong>
+          <strong>208 檔股票</strong>
           <small>依目前預設訊號規則與 stock_signal_weights.json 權重篩選，淨分達 60 且沒有重大退場風險。</small>
         </a>
     
