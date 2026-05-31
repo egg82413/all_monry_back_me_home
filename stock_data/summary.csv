@@ -576,13 +576,13 @@ Symbol,RealtimePrice,RealtimeTime,Close,MA5,MA10,CloseVsMA5,CloseVsMA10,Volume,H
 5498.TW,65.8,13:30:00,65.8,67.8,66.39,below,below,4355000,C:\codex\stock_data\history\5498_TW.csv
 5522.TW,72.7,13:30:00,72.7,71.24,70.99,above,above,1807328,C:\codex\stock_data\history\5522_TW.csv
 5536.TW,993.0,13:30:00,993.0,1024.4,982.3,below,above,1822000,C:\codex\stock_data\history\5536_TW.csv
-5871.TW,107.5,13:30:00,107.0,108.2,109.0,below,below,13675932,C:\codex\stock_data\history\5871_TW.csv
+5871.TW,107.5,13:30:00,107.5,107.5,109.15,below,below,15328796,C:\codex\stock_data\history\5871_TW.csv
 5876.TW,39.75,13:30:00,39.75,39.410000000000004,39.769999999999996,above,below,23187292,C:\codex\stock_data\history\5876_TW.csv
 5880.TW,22.85,13:30:00,22.85,22.73,22.724999999999998,above,above,71316116,C:\codex\stock_data\history\5880_TW.csv
 6005.TW,38.5,13:30:00,38.5,35.05,33.055,above,above,17154226,C:\codex\stock_data\history\6005_TW.csv
 6103.TW,,13:30:00,38.0,37.11,37.93,above,above,8000,C:\codex\stock_data\history\6103_TW.csv
 6104.TW,99.0,13:30:00,99.0,100.04,98.94,below,above,1295000,C:\codex\stock_data\history\6104_TW.csv
-6108.TW,19.9,13:30:00,20.15,19.75,19.265,above,above,3552501,C:\codex\stock_data\history\6108_TW.csv
+6108.TW,19.9,13:30:00,19.89999961853028,19.83999977111817,19.394999885559084,above,above,2418201,C:\codex\stock_data\history\6108_TW.csv
 6109.TW,11.3,13:30:00,11.3,10.8,10.805,above,above,336000,C:\codex\stock_data\history\6109_TW.csv
 6112.TW,42.8,13:30:00,42.8,42.42,42.31,above,above,528097,C:\codex\stock_data\history\6112_TW.csv
 6113.TW,27.6,13:30:00,27.6,26.9,26.105,above,above,501000,C:\codex\stock_data\history\6113_TW.csv
@@ -713,7 +713,7 @@ Symbol,RealtimePrice,RealtimeTime,Close,MA5,MA10,CloseVsMA5,CloseVsMA10,Volume,H
 6411.TW,110.0,13:30:00,110.0,103.7,95.95,above,above,9206000,C:\codex\stock_data\history\6411_TW.csv
 6412.TW,102.0,13:30:00,102.0,101.36,97.95,above,above,2272632,C:\codex\stock_data\history\6412_TW.csv
 6414.TW,360.5,13:30:00,360.5,358.4,347.05,above,above,1434857,C:\codex\stock_data\history\6414_TW.csv
-6415.TW,600.0,13:30:00,620.0,619.0,562.3,above,above,11817877,C:\codex\stock_data\history\6415_TW.csv
+6415.TW,600.0,13:30:00,600.0,626.6,575.5,below,above,7580367,C:\codex\stock_data\history\6415_TW.csv
 6416.TW,88.9,13:30:00,88.9,90.6,89.97,below,below,325716,C:\codex\stock_data\history\6416_TW.csv
 6417.TW,142.5,13:30:00,142.5,144.9,136.3,below,above,223000,C:\codex\stock_data\history\6417_TW.csv
 6418.TW,29.55,13:30:00,29.55,29.939999999999998,30.184999999999995,below,below,174000,C:\codex\stock_data\history\6418_TW.csv
