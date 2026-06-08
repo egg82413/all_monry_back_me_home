@@ -982,7 +982,7 @@ Symbol,RealtimePrice,RealtimeTime,Close,MA5,MA10,CloseVsMA5,CloseVsMA10,Volume,H
 8240.TW,56.5,13:30:00,56.5,60.31999999999999,63.05999999999999,below,below,866000,C:\codex\stock_data\history\8240_TW.csv
 8249.TW,51.5,13:30:00,51.5,54.02,55.129999999999995,below,below,671404,C:\codex\stock_data\history\8249_TW.csv
 8261.TW,156.0,13:30:00,156.0,168.4,139.52,below,above,4924984,C:\codex\stock_data\history\8261_TW.csv
-8271.TW,210.0,13:30:00,210.0,236.9,,below,N/A,3143391,C:\codex\stock_data\history\8271_TW.csv
+8271.TW,210.0,13:30:00,210.0,236.9,237.8,below,below,3143391,C:\codex\stock_data\history\8271_TW.csv
 8272.TW,,13:30:00,70.9,72.92,71.84,below,below,8000,C:\codex\stock_data\history\8272_TW.csv
 8277.TW,10.65,13:30:00,10.65,11.08,9.550999999999998,below,above,693000,C:\codex\stock_data\history\8277_TW.csv
 8284.TW,,13:30:00,62.4,63.1,63.129999999999995,below,below,27000,C:\codex\stock_data\history\8284_TW.csv
@@ -1001,7 +1001,7 @@ Symbol,RealtimePrice,RealtimeTime,Close,MA5,MA10,CloseVsMA5,CloseVsMA10,Volume,H
 8477.TW,,13:30:00,18.5,19.38,19.57,below,below,63000,C:\codex\stock_data\history\8477_TW.csv
 8487.TW,78.8,13:30:00,78.80000305175781,79.02000122070312,80.17999954223633,below,below,55664,C:\codex\stock_data\history\8487_TW.csv
 8499.TW,273.5,13:30:00,273.5,291.6,304.45,below,below,94210,C:\codex\stock_data\history\8499_TW.csv
-9904.TW,25.9,13:30:00,25.899999618530277,26.270000076293947,25.870000076293945,below,above,21088925,C:\codex\stock_data\history\9904_TW.csv
+9904.TW,25.9,13:30:00,25.89999961853028,26.270000076293947,25.870000076293945,below,above,21088925,C:\codex\stock_data\history\9904_TW.csv
 9912.TW,12.55,13:30:00,12.550000190734863,12.530000114440918,12.494999980926513,above,above,67943,C:\codex\stock_data\history\9912_TW.csv
 9958.TW,115.0,13:30:00,115.0,112.6,108.15,above,above,5611969,C:\codex\stock_data\history\9958_TW.csv
 ^TWII,,,43502.78,45253.53,44775.711,below,below,0,C:\codex\stock_data\history\^TWII.csv
